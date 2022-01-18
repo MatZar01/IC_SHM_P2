@@ -1,0 +1,1 @@
+In this directory classifiers will be stored in .cpickle binaries.
