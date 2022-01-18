@@ -48,8 +48,7 @@ Python version 3.8.10 was used, but different versions will also probably work f
 
 To use the solution we propose, a certain directory structure should be maintained, that is also consistent with out repository structure. The structure of the project with the names of the scripts is presented in the figure below:
 
-![Directory structure](https://i.ibb.co/MM9MdrM/Fig-repo.png)
-
+<img src="https://i.ibb.co/MM9MdrM/Fig-repo.png" alt="Directory structure" width="600"/>
 
 
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
