@@ -1,0 +1,1 @@
+In this folder directories with .png images representing classes should be held. Also, here are stored features extracted from the dataset using various backbone CNNs.
