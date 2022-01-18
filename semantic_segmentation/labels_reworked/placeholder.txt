@@ -1,0 +1,2 @@
+In this directory labels reworked with rework_labels.py are kept.
+Instead of PIL palette wrestle, labels are saved simply as 1 channel 8bit images.
