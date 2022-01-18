@@ -1,0 +1,1 @@
+In this directory plain .png images from initial dataset are stored.
