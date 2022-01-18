@@ -1,0 +1,1 @@
+In this directory the same structure of image files is kept, albeit they are deprived of background objects with bcg_remover.py script. Images will be later used for the rest of the tasks.
