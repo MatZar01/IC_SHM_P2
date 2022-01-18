@@ -19,10 +19,10 @@ For the purposes of the competition solution, we have created a robust pipeline 
 
 In total, we use four models of deep machine learning:
 
- - For masking the background -- semantic segmentation,
+ - For masking the background - semantic segmentation,
  - For segmentation of construction elements,
  - For defect segmentation,
- - For damage state detection -- image recognition.
+ - For damage state detection - image recognition.
 
 A detailed description of the individual operations performed within the pipeline is described in the associated paper (will be uploaded after the competition ends). It also contains a description of the tests of other machine learning methods against which the solution from the project was compared.
 
