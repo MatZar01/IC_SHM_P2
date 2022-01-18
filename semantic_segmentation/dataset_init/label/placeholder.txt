@@ -1,0 +1,1 @@
+In this directory initial labels in PIL palette format are stored, as delivered with Project task.
