@@ -1,0 +1,1 @@
+In this directory new dataset is held for detecting defects. Again in train/test folders are .png images for classifier training.
