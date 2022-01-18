@@ -15,7 +15,7 @@ This is a readme file describing the operation and processing of data for the pu
 
 For the purposes of the competition solution, we have created a robust pipeline of deep learning models using **Python 3** in which we utilized [Detectron2](https://github.com/facebookresearch/detectron2) framework for image semantic segmentation and fork of our own framework -- [KrakN](https://github.com/MatZar01/KrakN) for training multiple image recognition models. Our pipeline of operations needed for performing all of the competition tasks presents itself as follows:
 
-![Our pipeline](https://i.ibb.co/L5mQHVR/Fig7.png)
+<img src="https://i.ibb.co/L5mQHVR/Fig7.png" alt="Our pipeline" width="650"/>
 
 In total, we use four models of deep machine learning:
 
