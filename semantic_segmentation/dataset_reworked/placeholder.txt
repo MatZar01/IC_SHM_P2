@@ -1,0 +1,1 @@
+In this directory the initial dataset is split into training and testing splits with split_dataset.py script.
