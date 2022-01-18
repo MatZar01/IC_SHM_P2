@@ -15,7 +15,7 @@ This is a readme file describing the operation and processing of data for the pu
 
 For the purposes of the competition solution, we have created a robust pipeline of deep learning models using **Python 3** in which we utilized [Detectron2](https://github.com/facebookresearch/detectron2) framework for image semantic segmentation and fork of our own framework -- [KrakN](https://github.com/MatZar01/KrakN) for training multiple image recognition models. Our pipeline of operations needed for performing all of the competition tasks presents itself as follows:
 
-![Our pipeline](https://i.ibb.co/L5mQHVR/Fig7.png =650x)
+![Our pipeline](https://i.ibb.co/L5mQHVR/Fig7.png)
 
 In total, we use four models of deep machine learning:
 
@@ -48,7 +48,7 @@ Python version 3.8.10 was used, but different versions will also probably work f
 
 To use the solution we propose, a certain directory structure should be maintained, that is also consistent with out repository structure. The structure of the project with the names of the scripts is presented in the figure below:
 
-![Directory structure](https://i.ibb.co/MM9MdrM/Fig-repo.png =600x)
+![Directory structure](https://i.ibb.co/MM9MdrM/Fig-repo.png)
 
 
 
