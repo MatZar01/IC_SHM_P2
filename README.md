@@ -9,7 +9,6 @@ This is a readme file describing the operation and processing of data for the pu
 * [Directory structure](#directory-structure)
 * [Usage](#usage)
 * [Use examples](#use-examples)
-* [Acknowledgments](#acknowledgments)
 
 # General Info
 
@@ -53,6 +52,8 @@ To use the solution we propose, a certain directory structure should be maintain
 In the diagram, folders are marked in blue and Python scripts are marked in yellow. How to use each of them will be described in the next section.
 
 ## Usage
+
+In order to use our solution with the dataset provided in Project, cetrain steps have to be followed in order.
 
 ## Use examples
 
