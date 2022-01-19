@@ -13,7 +13,7 @@ This is a readme file describing the operation and processing of data for the pu
 
 # General Info
 
-For the purposes of the competition solution, we have created a robust pipeline of deep learning models using **Python 3** in which we utilized [Detectron2](https://github.com/facebookresearch/detectron2) framework for image semantic segmentation and fork of our own framework - [KrakN](https://github.com/MatZar01/KrakN) for training multiple image recognition models. Our pipeline of operations needed for performing all of the competition tasks presents itself as follows:
+For the purposes of the competition solution, we have created a robust pipeline of deep learning models using **Python 3** in which we utilized [Detectron2](https://github.com/facebookresearch/detectron2) framework for image semantic segmentation and fork of our own framework - [KrakN](https://github.com/MatZar01/KrakN) for training multiple image recognition models. Our pipeline of operations needed for performing all of the competition tasks, with addition of *Task 0* for masking background, presents itself as follows:
 
 <img src="https://i.ibb.co/L5mQHVR/Fig7.png" alt="Our pipeline" width="650"/>
 
@@ -56,8 +56,25 @@ In the diagram, folders are marked in blue and Python scripts are marked in yell
 
 ## Use examples
 
+Below is a video showing our solutions' pipeline in motion (it will redirect to external page).
+
 <a href="https://streamable.com/qfx70h" title="Click me ;-)"><img src="https://i.ibb.co/RQgFSp2/front.png" alt="Click me ;-)" /></a>
 
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+Also, here are some images showing various tasks performed by our solution:
 
+<img src="https://i.ibb.co/XWwqPY2/Fig1.jpg" alt="Task 0" width="800"/>
+
+> Task 0: background masking
+
+<img src="https://i.ibb.co/CM8gDgH/Fig4.jpg" alt="Task 1" width="500"/>
+
+> Task 1: defect detection
+
+<img src="https://i.ibb.co/HhgSvFP/Fig5.jpg" alt="Task 2" width="800"/>
+
+> Task 2: element segmentation
+
+<img src="https://i.ibb.co/8XXzj9k/Fig-repo-ds.png" alt="Task 3" width="800"/>
+
+> Task 3: damage state detection
 
