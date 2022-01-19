@@ -53,7 +53,19 @@ In the diagram, folders are marked in blue and Python scripts are marked in yell
 
 ## Usage
 
-In order to use our solution with the dataset provided in Project, cetrain steps have to be followed in order.
+In order to use our solution with the dataset provided in Project or reproduce our results, cetrain steps have to be followed in order.
+
+> 1. Split dataset to training and testing subsets.
+
+First, dataset has to be split using `split_dataset.py` script. It will produce the split in 4:1 ratio and known pseudo-random algorithms' seed and place images in `dataset_reworked` directory. The script uses `.csv` files with image names provided in the Project.
+
+> 2. Rework labels.
+
+In the second steps labels have to be reworked with `rework_labels.py` so that they no longer are read by `cv2` library as RGB images but as 8-bit 1 channel images instead. This step is performed to make the images management a little bit easier, as they will be read as arrays from now on.
+
+> 3. Make dataset for Task 0.
+
+Now, `bcg_remover.py` have to be run in order to 
 
 ## Use examples
 
