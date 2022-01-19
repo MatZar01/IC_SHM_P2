@@ -54,7 +54,9 @@ In the diagram, folders are marked in blue and Python scripts are marked in yell
 
 ## Usage
 
+## Use examples
 
+<a href="https://streamable.com/qfx70h" title="video_example"><img src="https://i.ibb.co/RQgFSp2/front.png" alt="Click me ;-)" /></a>
 
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
