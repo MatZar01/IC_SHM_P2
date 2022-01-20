@@ -38,8 +38,7 @@ Our solution requires the following dependencies (packages in the latest version
 * H5Py 
 * Progressbar 
 * Imutils 
-* Pillow 
-* PyGame 
+* Pillow
 
 Python version 3.8.10 was used, but different versions will also probably work fine (but we didn't check them).
 
