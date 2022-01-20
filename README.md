@@ -43,6 +43,8 @@ Our solution requires the following dependencies (packages in the latest version
 
 Python version 3.8.10 was used, but different versions will also probably work fine (but we didn't check them).
 
+Also please note, that strings containing paths to folders in our Python scripts may need to be changed in order to run properly on your system (we did all the work on Linux machine, so check your backslash).
+
 ## Directory structure
 
 To use the solution we propose, a certain directory structure should be maintained, that is also consistent with out repository structure. The structure of the project with the names of the scripts is presented in the figure below:
@@ -65,7 +67,15 @@ In the second steps labels have to be reworked with `rework_labels.py` so that t
 
 > 3. Make dataset for Task 0.
 
-Now, `bcg_remover.py` have to be run in order to 
+Now, `bcg_remover.py` have to be run in order to prepare the dataset to train background removal model. Images will be placed in `dataset_reworked_no_bcg` directory. The same images will later be used for Task 2.
+
+> 4. Make dataset for Task 1 and Task 3
+
+In the last step of dataset preparation, separate datasets for defect and damage state detection have to be prepared. In order to do so, run `comp_split.py` and `ds_dataset.py`. In the result, yet another set of training/testing images will be created in `./semantic_segmentation/dataset_comp` and `./damage_state_detection/dataset` directories. After this step, the creation of datasets is finally finished.
+
+> 5. Train models for Task 0, 1 and 2.
+
+
 
 ## Use examples
 
