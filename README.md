@@ -70,11 +70,21 @@ Now, `bcg_remover.py` have to be run in order to prepare the dataset to train ba
 
 > 4. Make dataset for Task 1 and Task 3
 
-In the last step of dataset preparation, separate datasets for defect and damage state detection have to be prepared. In order to do so, run `comp_split.py` and `ds_dataset.py`. In the result, yet another set of training/testing images will be created in `./semantic_segmentation/dataset_comp` and `./damage_state_detection/dataset` directories. After this step, the creation of datasets is finally finished.
+In the last step of dataset preparation, separate datasets for defect and damage state detection have to be prepared. In order to do so, run `comp_split.py` and `ds_dataset.py`. In the result, yet another set of training/testing images will be created in `./semantic_segmentation/dataset_comp` and `./damage_state_detection/dataset` directories. After this step, the creation of datasets is finally finished. Details on transforming images to datasets are described in detail in the article.
 
 > 5. Train models for Task 0, 1 and 2.
 
+In order to train models for tasks 0, 1 and 2 with the gathered data, use `train_with_detectron_sem_seg.py` script. Note, that you will have to set your task and dataset paths manually. After the training is complete, DL model will be saved in `./output_{task}_seg` directory. This script also provides methods for prediction visualization.
 
+Note, that the script uses `#%%` symbols - thus it can be used in two ways: in single continoous run or in jupyter-style cell by cell runs.
+
+> 6. Train model for damage state detection.
+
+In order to train model for the last task, first features from the dataset have to be extracted and saved to `.hdf5` file with `extract_features.py` script. By default, ResNet 50 is used as feature extractor, but it can be changed to any pretrained CNN from `tensorflow.keras.applications` (we just found out that ResNet works best). 
+
+After features are extracted, train new classifier with `train_model.py`. The process can take up to 4 hours, as it uses only CPU and processes ~60k images. After training, new classifier will be saved as `ResNet_clf.cpickle`. It can later be used for inference as classifier for ResNet CNN and properly reworked images.  
+
+And thats it.
 
 ## Use examples
 
