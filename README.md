@@ -74,9 +74,9 @@ In the last step of dataset preparation, separate datasets for defect and damage
 
 > 5. Train models for Task 0, 1 and 2.
 
-In order to train models for tasks 0, 1 and 2 with the gathered data, use `train_with_detectron_sem_seg.py` script. Note, that you will have to set your task and dataset paths manually. After the training is complete, DL model will be saved in `./output_{task}_seg` directory. This script also provides methods for prediction visualization.
+In order to train models for tasks 0, 1 and 2 with the gathered data, use `detectron_train.py` script. Note, that you will have to set your task and dataset paths manually. After the training is complete, DL model will be saved in `./output_{task}_seg` directory. This script also provides methods for prediction visualization, but if you want to perform evaluation, run `detectron_eval.py` and the resulting metrics will be saved in `results` directory.
 
-Note, that the script uses `#%%` symbols - thus it can be used in two ways: in single continoous run or in jupyter-style cell by cell runs.
+Note, that the scripts use `#%%` symbols - thus they can be used in two ways: in single continoous run or in jupyter-style cell by cell runs.
 
 > 6. Train model for damage state detection.
 
@@ -109,4 +109,3 @@ Also, here are some images showing various tasks performed by our solution:
 <img src="https://i.ibb.co/8XXzj9k/Fig-repo-ds.png" alt="Task 3" width="800"/>
 
 > Task 3: damage state detection
-
